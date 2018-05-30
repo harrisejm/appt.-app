@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/s.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="enter-Name">Enter Name</label>
+            <input id="enter-Name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="des">description of the appointment</label>
+            <input id="des" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="app">appointment date</label>
+            <input id="app" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="start">Start Time/End Time</label>
+            <input id="start" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">submit</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>Appointment info</h1>
+        <p> Hello <span class="enter-Name"></span>, you have scheduled a <span class="des"></span> on
+      <span class="app"></span> from <span class="start"></span> is successful</p>
+      </div>
+    </div>
+
+  </body>
+</html>
